@@ -1,0 +1,174 @@
+:root{
+    --box-shadow: -5px 5px 10px 5px rgba(128, 128, 128, 0.9);
+}
+
+body{
+    margin:0;
+}
+
+.header-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffaf87;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.gap{
+    display: flex;
+    gap: 10px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #98867e;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+.logo {
+    border: 2px solid rgb(96, 163, 168);
+    border-radius: 50%;
+    height:60px;
+    width:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    font-weight: 600;
+}
+
+/* Pseuso Class Selector  */
+.nav-container li:hover {
+    color: rgb(221, 255, 0);
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url(image/hero.jpg) no-repeat center ;
+    min-height: 60vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.hero-text{
+    border-radius: 12px;
+    background-color: rgba(123, 45, 34, 234);
+    text-align: center;
+    padding: 20px;
+
+}
+
+/* Latest Blog and Filter Secton  */
+
+.latest-blog-filter-container{
+    margin-top: 24px;
+    display: flex;
+    padding: 12px;
+    gap: 10px;
+}
+
+.latest-blog-container{
+    flex-basis: 70%;
+}
+
+
+.latest-blog-card{
+    display: flex;
+    gap: 12px;
+    border-radius: 12px;
+    box-shadow: -5px 5px 10px 5px rgba(128, 128, 128, 0.9);
+
+}
+
+.latest-card-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+}
+
+.filter-container{
+     flex-basis: 30%;
+ 
+ }
+
+ .filter-by-state-card{
+    border-radius: 12px;
+    padding:12px;
+    margin-top:12px;
+    box-shadow:var(--box-shadow);
+ }
+
+ 
+ .filter-by-year-card{
+    border-radius: 12px;
+    padding:12px;
+    margin-top:12px;
+    box-shadow:var(--box-shadow);
+ }
+
+ /* Recommendation-container */
+ .Recommendation-container{
+    display:flex;
+    flex-wrap:wrap;
+    padding:12px;
+    gap:30px;
+ }
+
+ /* recommendsation card */
+
+
+ .recommendation-image{
+    height:150px;
+    width:150px;
+    border-radius:12px;
+
+ }
+ .recommendation-card{
+    box-shadow:var(--box-shadow);
+border-radius:12px;
+width:150px;
+
+}
+
+.recommendation-card-body{
+    padding:0 12px 12px 12px;
+}
+
+.read-more{
+    box-shadow:var(--box-shadow);
+    background-color: rgb(130, 214, 201);
+    padding: 12px;
+    float:right;
+    border-radius:12px;
+}
+
+.read-more:hover{
+    background-color: rgb(50, 65, 115);
+}
+
+.subscripton-form{
+    border: 3px solid black;
+    padding : 30px;
+}
+
+.footer{
+    background-color:rgb(145, 123, 207);
+    padding:12px;
+    margin-top:24px;
+    text-align: center;
+}
